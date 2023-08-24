@@ -43,8 +43,9 @@ export default function Home({ token, t }) {
       });
       setUsername(response.data.username);
       let userInfoResponse = await axios.get(
-        `http://localhost:3000/account/profile/${response.data.username}`
+        `${api}/account/profile/${response.data.username}`
       );
+      console.log(userInfoResponse);
       setStandoff2_id(userInfoResponse.data.standoff2_id);
       setStats(userInfoResponse.data.statistic);
       setAvatar(userInfoResponse.data.avatar);
