@@ -1,0 +1,61 @@
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+tr {
+  padding: 15px 100px 15px 15px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.04);
+  display: block;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+.leave {
+  background-color: brown;
+  border: none;
+}
+
+.team,
+.stats {
+  display: flex;
+  justify-content: center;
+}
+
+.teamPage {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.04);
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.team-container {
+  background-color: rgba(255, 255, 255, 0.04);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.teammates-container {
+  display: flex;
+  justify-content: center;
+}

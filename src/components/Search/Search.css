@@ -1,0 +1,21 @@
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color: rgb(255, 255, 255);
+}
+
+.searchBtn {
+  background-color: #333a4a;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 2px;
+  border-color: rgba(0, 0, 0, 0);
+  transition: opacity 0.5s;
+}

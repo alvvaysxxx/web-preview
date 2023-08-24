@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500;600;700&display=swap");
+html {
+  background-color: #0f0f0f;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+input {
+  all: unset;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+button {
+  all: unset;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-family: "Inter";
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+input,
+button {
+  display: block;
+  height: 30px;
+}
+
+h1,
+h2,
+h4,
+h4,
+h5,
+h6,
+p,
+span,
+button,
+input {
+  color: white;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+p,
+span,
+input {
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+tr {
+  color: white;
+  font-family: "Montserrat";
+}
+
+caption {
+  color: white;
+  font-family: "Montserrat";
+}
+
+.outline-card {
+  border: 1px solid rgba(255, 255, 255, 0.089);
+}
+
+.unable {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}

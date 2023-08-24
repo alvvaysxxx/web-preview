@@ -1,0 +1,13 @@
+.linkBtn {
+  all: unset;
+  color: white;
+  font-family: "Inter";
+  background-color: #333a4a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  line-height: 2;
+}
+
+.linkSvg {
+  vertical-align: middle;
+}

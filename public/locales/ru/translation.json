@@ -1,0 +1,52 @@
+{
+  "component.returnBtn": "Назад",
+
+  "homepage.title": "С возвращением, ",
+  "homepage.gameid": "Ваш ID в игре: ",
+  "homepage.stats": "Статистика",
+  "homepage.currentTeam": "Текущая команда: ",
+
+  "teams.title": "Команды",
+  "teams.currentTeam": "Текущая Команда:",
+  "teams.notInTeam": "Похоже, что вы еще не состоите в команде. Чтобы попасть в команду, вы должны перейти по ссылке-приглашению, полученную от лидера команды, или создайте свою собственную",
+  "teams.stats": "Статистика",
+  "teams.leave": "Покинуть команду",
+  "teams.teammates": "Участники",
+  "teams.createTeam": "Создать команду",
+  "teams.teamName": "Название команды",
+  "teams.teamTag": "Тег команды",
+  "teams.create": "Создать",
+  "teams.close": "Закрыть",
+  "teams.error": "Команда уже существует или недопустимый ввод",
+  "teams.areYouSure": "Вы уверены?",
+  "teams.loading": "Загрузка...",
+
+  "searchbar.placeholder": "Введите ник либо ID",
+  "searchbar.buttonText": "Поиск",
+
+  "header.logout": "Выйти из акаунта",
+  "header.settings": "Настройки",
+  "header.homepage": "Главная",
+  "header.teams": "Команды",
+  "header.tournaments": "Турниры",
+  "header.leagues": "Лиги",
+
+  "profile.title": "",
+  "profile.id": "",
+  "profile.currentTeam": "Текущая команда: ",
+  "profile.notInTeam": "Не в команде",
+  "profile.viewInGameButton": "Профиль в игре",
+  "profile.metrics": "Метрики ",
+
+  "settings.title": "Настройки",
+  "settings.upload-avatar": "Загрузить новый аватар",
+  "settings.apply-changes": "Применить изменения",
+  "settings.change-password": "Изменить пароль",
+  "settings.old-password": "Старый пароль",
+  "settings.new-password": "Новый пароль",
+  "settings.applying": "Применение...",
+
+  "banned.title": "Вы получили блокировку на нашем проекте.",
+  "banned.ban_giver": "Вас заблокировал ",
+  "banned.reason": "Причина блокировки:"
+}
